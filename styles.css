@@ -1,46 +1,150 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
-}
-
-nav {
+.columns {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
+.myinfo {
+  border-bottom: 1px solid black;
+  margin: 0px -10px;
+}
+
+.picture {
   text-align: center;
-  text-decoration: none;
-  color: #555;
 }
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+.pic {
+  width: 70px ;
 }
 
-main {
-  padding: 1rem;
+.me {
+  text-align: center;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+.info {
+  text-align: center;
+}
+
+.column1 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+}
+
+.column2 {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.name {
+  display: flex;
+}
+
+.multiple{
+  margin-left: 430px;
+}
+
+.heading {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: -10px;
+  padding-bottom: 70px;
+  line-height: 10px;
+}
+
+.column {
+  display: flex;
+  margin: 11px -10px 0px;
+  padding: 0px 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.options {
+  width: 400px;
+  border-right: 1px solid black;
+  text-align: left;
+
+}
+
+.exp {
+  border-right: 1px solid black;
+  padding: 0px 10px;
+}
+
+.education {
+  padding: 0px 10px;
+}
+
+.w1 {
+  border-bottom: 1px solid black;
+  margin: 0px -10px;
+  padding: 0px 10px;
+}
+
+.review{
+  font-style: italic;
+}
+
+.review1 {
+  display: flex;
+}
+
+.id1 {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.id2 {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.id3 {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+
+.project {
+  border-bottom: 1px solid black;
+  margin: 0px -10px;
+  padding: 10px;
+}
+
+.work {
+  border-top: 1px solid black;
+  margin: -5px;
+}
+
+.open {
+  border-top: 1px solid black;
+  margin: -5px;
+  padding: 10px;
+}
+
+.review {
+  font-style: italic;
+  text-align: center;
+}
+
+.john {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.dp {
+  width: 80px;
 }
